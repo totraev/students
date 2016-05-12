@@ -1,0 +1,32 @@
+
+//
+@red: red;
+@size: 5px / 5px; //10px
+@white: #fff;
+
+litter(@white, 10%);
+
+
+
+.some-class(@size, @red){
+  border-left: @size;
+  color: @red;
+  background-color: @white
+}
+
+
+.some-link:hover{
+  background: #0f4;
+  .some-class(10px, blue);
+}
+
+.blabla{
+  .some-class(100px, #dfs);
+}
+
+.btn(@raund,@bg-color,@ft-size,@ft-color){
+  border-radius: @raund;
+  background: @bg-color;
+  font-size: @ft-size;
+  color: @ft-color;
+}

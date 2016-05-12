@@ -1,0 +1,32 @@
+[
+    {
+        "name": "David",
+        "last_name": "Totrashvili",
+        "age": "25",
+        "gender": "male",
+        "university": "MSU",
+        "address": {
+          "country": "Uzbekistan",
+          "city": "Tashkent",
+          "street": "Shuker Burhonov",
+          "house": "11"
+        },
+        "parents": [
+          {
+            "type": "father",
+            "name": "Iveriy",
+            "last_name": "Totrashvili"
+          },
+          {
+            "type": "mother",
+            "name": "Janna",
+            "last_name": "Karpukhina"
+          }
+        ],
+        "contacts": {
+          "phone": "+998974007191",
+          "email": "totraev@gmail.com",
+          "skype": "dtdato"
+        }
+    }
+]
